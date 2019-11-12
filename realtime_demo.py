@@ -136,6 +136,7 @@ def main():
     width = args.width
 
     face = FaceCV(depth=depth, width=width)
+  
 
     face.detect_face()
 
